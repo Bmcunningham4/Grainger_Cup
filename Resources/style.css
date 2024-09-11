@@ -1,0 +1,130 @@
+html,
+body {
+  background-image: url("back-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3.125rem;
+  padding: 2.5rem;
+  margin: 0;
+}
+
+.counter-div {
+  background-color: white;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.625rem;
+  border: 0.3125rem solid black;
+  border-radius: 20px;
+}
+
+.counter-div h1 {
+  font-size: 6.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+.counter-div h2 {
+  font-size: 1.25rem;
+  margin: 0;
+  white-space: pre;
+}
+
+/* Helmet Section */
+.helmet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  z-index: 0;
+}
+
+.helmet img {
+  opacity: 0.95;
+  transform: scaleX(-1);
+  width: 53.125rem;
+  height: auto;
+  margin: 0;
+  /* mix-blend-mode: multiply; This does some cool stuff... */
+}
+
+/* Names list section */
+.names {
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 34.0625rem;
+  right: 3.4375rem;
+  /* transform: rotate(5deg);  Get rid of this if it's not a vibe later */
+}
+
+.names ul {
+  list-style: none;
+  padding: 0.3125rem;
+}
+
+.list-3 li {
+  color: white;
+  margin: 0;
+}
+
+.list-3 li a {
+  text-decoration: none;
+}
+
+#ben-list {
+  position: relative;
+  bottom: 1.25rem;
+}
+#tom-list {
+  position: relative;
+  bottom: 0;
+}
+#james-list {
+  position: relative;
+  top: 1.25rem;
+}
+
+/* a-tag pseudo cases! */
+.name-link {
+  color: white;
+  font-style: italic;
+}
+
+#name-ben:hover,
+#name-ben:visited {
+  color: #d4af37;
+  /* font-size: 16.5px; */
+  text-decoration: underline;
+}
+#name-tom:hover,
+#name-tom:visited {
+  color: #cd7f32;
+  text-decoration: underline;
+}
+#name-james:hover,
+#name-james:visited {
+  color: silver;
+  text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 480px) { body { font-size: 12px; } }
