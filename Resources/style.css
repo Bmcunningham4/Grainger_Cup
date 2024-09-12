@@ -23,17 +23,16 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  html, body {
+  html,
+  body {
     font-size: 12px;
   }
 
-  .counter-div h1 { /** This is so Ik what size I'm dealing with! */
+  .counter-div h1 {
+    /** This is so Ik what size I'm dealing with! */
     color: blue;
   }
-
 }
-
-
 
 /* Header Section */
 header {
@@ -78,39 +77,37 @@ header h2 {
 
 /* Helmet Section */
 .helmet {
+  width: 100%;
+  position: relative;
+  bottom: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: auto;
-  position: relative;
-  bottom: 6.25rem;
-  z-index: 0;
 }
 
-.helmet img {
+.helmet-image {
   opacity: 0.95;
   transform: scaleX(-1);
   width: 53.125rem;
   height: auto;
-  margin: 0;
-  /* mix-blend-mode: multiply; This does some cool stuff... */
+  /* mix-blend-mode: multiply; This does some cool stuff.. */
 }
 
 /* Names list section */
-.names {
-  z-index: 5;
+.helmet-names {
+  position: absolute;
+  top: 45%; /* Apaz this crap is needed.. */
+  left: 46%;
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
-  position: relative;
-  bottom: 40.3125rem;
-  right: 3.4375rem;
-  /* transform: rotate(5deg);  Get rid of this if it's not a vibe later */
+
 }
 
-.names ul {
+.helmet-names ul {
   list-style: none;
-  padding: 0.3125rem;
+  padding: 0.3125rem; 
+
 }
 
 .list-3 li {
@@ -157,4 +154,3 @@ header h2 {
   color: silver;
   text-decoration: underline;
 }
-
