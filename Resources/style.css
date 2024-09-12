@@ -22,22 +22,43 @@ body {
   overflow: auto; /* ! (same as scroll basically) This is pretty clutch and a lifesaver! */
 }
 
+/* Testing 740 - 600 range! */
 @media only screen and (max-width: 740px) {
-  html,
-  body {
-    font-size: 8px;
+  html, body {
+    font-size: 12px;
   }
 
-
   .list-3 {
-    font-size: 0.85rem;
+    font-size: 1rem;
     position: relative;
     right: 1rem;
   }
 
   .counter-div h1 {
-    /** This is so Ik what size I'm dealing with! */
-    color: blue;
+    color: red; /* So Ik which one I'm dealing with */
+  }
+}
+
+
+/* 600 and Below Range! */
+@media only screen and (max-width: 600px) {
+  html, body {
+    font-size: 8px;
+  }
+
+  .list-3 {
+    font-size: 0.9rem;
+    position: relative;
+    right: 1rem;
+  }
+
+  .helmet {
+    position: relative;
+    top: -8rem;
+  }
+
+  .counter-div h1 {
+    color: blue; /* So Ik what size I'm dealing with! */
   }
 }
 
