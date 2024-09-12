@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow: hidden;
+  overflow: auto; /* ! (same as scroll basically) This is pretty clutch and a lifesaver! */
 }
 
 @media only screen and (max-width: 740px) {
