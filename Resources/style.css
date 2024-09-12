@@ -22,9 +22,14 @@ body {
   overflow: auto; /* ! (same as scroll basically) This is pretty clutch and a lifesaver! */
 }
 
+/** Dynamic island.. */
+@media (prefers-color-scheme: dark) {
+  /*  Idk if this is working or not.. */
+}
 /* Testing 740 - 600 range! */
 @media only screen and (max-width: 740px) {
-  html, body {
+  html,
+  body {
     font-size: 12px;
   }
 
@@ -39,10 +44,10 @@ body {
   }
 }
 
-
 /* 600 and Below Range! */
 @media only screen and (max-width: 600px) {
-  html, body {
+  html,
+  body {
     font-size: 8px;
   }
 
@@ -129,13 +134,11 @@ header h2 {
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
-
 }
 
 .helmet-names ul {
   list-style: none;
-  padding: 0.3125rem; 
-
+  padding: 0.3125rem;
 }
 
 .list-3 li {
