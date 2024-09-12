@@ -22,10 +22,17 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 740px) {
   html,
   body {
-    font-size: 12px;
+    font-size: 8px;
+  }
+
+
+  .list-3 {
+    font-size: 0.85rem;
+    position: relative;
+    right: 1rem;
   }
 
   .counter-div h1 {
