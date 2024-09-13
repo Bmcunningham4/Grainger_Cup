@@ -21,3 +21,15 @@
       color: red; /* So Ik which one I'm dealing with */
     }
   }
+
+/** Wide monitor tings!! */
+  @media only screen and (min-width: 1750px) {
+    .counter-div h1 {
+      color: yellow;
+    }
+
+    .list-3 {
+      position: relative;
+      left: 2rem;
+    }
+  }
