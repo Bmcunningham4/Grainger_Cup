@@ -27,7 +27,7 @@ body {
   /*  Idk if this is working or not.. */
 }
 /* Testing 740 - 600 range! */
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 745px) {
   html,
   body {
     font-size: 12px;
@@ -122,6 +122,7 @@ header h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .helmet-image {
@@ -140,6 +141,8 @@ header h2 {
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
+  flex: 1;
+
 }
 
 .helmet-names ul {
