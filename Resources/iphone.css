@@ -1,0 +1,44 @@
+/* 600 and Below Range! */
+@media only screen and (max-width: 600px) {
+    html,
+    body {
+      font-size: 8px;
+    }
+  
+    .list-3 {
+      font-size: 0.9rem;
+      position: relative;
+      right: 1rem;
+    }
+  
+    .helmet {
+      position: relative;
+      top: -8rem;
+    }
+  
+    .counter-div h1 {
+      color: blue; /* So Ik what size I'm dealing with! */
+    }
+  }
+
+/** Width and Height! */
+@media only screen and (max-width: 600px) and (min-height: 810px) {
+
+    .list-3 {
+        position: relative;
+        top: 0.875rem;
+    }
+
+    #tom-list {
+        position: relative;
+        top: 1.75rem;
+    }
+    #james-list {
+    position: relative;
+    top: 2.625rem;        
+    }
+
+    .counter-div h1 {
+        color: green;
+    }
+}

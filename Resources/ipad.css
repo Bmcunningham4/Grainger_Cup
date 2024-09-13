@@ -1,0 +1,23 @@
+/** Dynamic island.. */
+@media (prefers-color-scheme: dark) {
+    /*  Idk if this is working or not.. */
+  }
+
+
+ /* Testing 740 - 600 range! */
+@media only screen and (max-width: 745px) {
+    html,
+    body {
+      font-size: 12px;
+    }
+  
+    .list-3 {
+      font-size: 1rem;
+      position: relative;
+      right: 1rem;
+    }
+  
+    .counter-div h1 {
+      color: red; /* So Ik which one I'm dealing with */
+    }
+  }
