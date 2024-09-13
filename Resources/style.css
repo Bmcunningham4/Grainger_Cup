@@ -20,6 +20,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: auto; /* ! (same as scroll basically) This is pretty clutch and a lifesaver! */
+  font-family: "Roboto", sans-serif;
+
 }
 
 /* Header Section */
@@ -53,7 +55,7 @@ header h2 {
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   text-align: center;
-  gap: 4rem;
+  gap:  2rem 4rem;
   max-width: 80vw;
 }
 
@@ -106,6 +108,7 @@ header h2 {
 .list-3 li {
   color: white;
   margin: 0;
+  font-size: 16px;
 }
 
 .list-3 li a {
