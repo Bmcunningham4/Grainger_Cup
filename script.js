@@ -1,5 +1,5 @@
 function countdownToGraingerCup() {
-    const graingerCupDate = new Date("December 27, 2024 19:00:00").getTime();
+    const graingerCupDate = new Date("December 26, 2024 19:00:00").getTime();
     const now = new Date().getTime();
     const timeRemaining = graingerCupDate - now;
 

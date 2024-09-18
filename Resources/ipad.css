@@ -20,6 +20,10 @@
     .counter-div h1 {
       color: red; /* So Ik which one I'm dealing with */
     }
+
+    header h1 {
+      font-family: "sans-serif";
+    }
   }
 
 /** Wide monitor tings!! */
