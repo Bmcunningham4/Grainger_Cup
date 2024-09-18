@@ -1,34 +1,25 @@
-
- /* Testing 740 - 600 range! */
-@media only screen and (max-width: 770px) {
-    html,
-    body {
-      font-size: 12px;
-    }
-  
-    .list-3 {
-      font-size: 1rem;
-      position: relative;
-      right: 1rem;
-    }
-  
-    .counter-div h1 {
-      color: red; /* So Ik which one I'm dealing with */
-    }
-
-    header h1 {
-      font-family: "Protest Guerrilla", sans-serif;
-    }
+/* Testing 740 - 600 range! */
+@media only screen and (max-width: 830px) {
+  html,
+  body {
+    font-size: 12px;
   }
+
+  .list-3 {
+    font-size: 1rem;
+    position: relative;
+    right: 1rem;
+  }
+
+  header h1 {
+    font-family: "Protest Guerrilla", sans-serif;
+  }
+}
 
 /** Wide monitor tings!! */
-  @media only screen and (min-width: 1750px) {
-    .counter-div h1 {
-      color: yellow;
-    }
-
-    .list-3 {
-      position: relative;
-      left: 2rem;
-    }
+@media only screen and (min-width: 1750px) {
+  .list-3 {
+    position: relative;
+    left: 2rem;
   }
+}

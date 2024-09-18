@@ -23,10 +23,6 @@
     .helmet-image {
       width: 66rem;
     }
-  
-    .counter-div h1 {
-      color: rgb(0, 33, 245); /* So Ik what size I'm dealing with! */
-    }
 
     header h1 {
       font-family: "Protest Guerrilla", sans-serif;
@@ -50,7 +46,5 @@
     top: 2.625rem;        
     }
 
-    .counter-div h1 {
-        color: green;
-    }
+
 }
