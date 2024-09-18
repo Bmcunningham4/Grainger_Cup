@@ -10,7 +10,7 @@
     }
   
     .list-3 li {
-      font-size: 0.66rem;
+      font-size: 0.75rem;
       position: relative;
       right: 1rem;
     }
@@ -29,7 +29,7 @@
     }
 
     header h1 {
-      font-family: "sans-serif";
+      font-family: "Protest Guerrilla", sans-serif;
     }
   }
 
