@@ -1,3 +1,3 @@
 
 # Project Description:
-Again this is another prank website don't read into this!
+This is not a professional project, just a prank personal website!

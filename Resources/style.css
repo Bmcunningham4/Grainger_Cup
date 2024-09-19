@@ -116,6 +116,10 @@ header h2 {
   font-size: 0.95rem;;
 }
 
+.emoji {
+  font-size: 0.65rem;
+}
+
 .list-3 li a {
   text-decoration: none;
 }
