@@ -144,6 +144,10 @@ header h2 {
   font-style: italic;
 }
 
+.name-link:hover {
+  text-decoration: underline;
+}
+
 #name-ben:hover,
 #name-ben:visited {
   color: #d4af37;
