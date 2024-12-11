@@ -147,6 +147,9 @@ header h2 {
 .name-link:hover {
   text-decoration: underline;
 }
+.name-link:visited {
+  color: #800080;
+}
 
 #name-ben:hover,
 #name-ben:visited {
